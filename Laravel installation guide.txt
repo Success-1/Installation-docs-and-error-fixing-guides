@@ -1,0 +1,34 @@
+How to install Laravel
+Created during Benjoe project on 28/06/2025
+
+1. Install XAMPP
+2. Install composer 
+3. Install node
+ cd C:\xampp\htdocs
+4. composer global require laravel/installer
+5. laravel new project-name
+6.  Which starter kit would you like to install? [None]:
+  [none    ] None
+  [react   ] React
+  [vue     ] Vue
+  [livewire] Livewire
+>none
+//I chose none because I am not using any starter kit
+
+7.  Which testing framework do you prefer? [Pest]:
+  [0] Pest
+  [1] PHPUnit
+>0
+//I chose 0 for pest
+
+8.  Which database will your application use? [SQLite]:
+  [sqlite ] SQLite
+  [mysql  ] MySQL
+  [mariadb] MariaDB
+  [pgsql  ] PostgreSQL (Missing PDO extension)
+  [sqlsrv ] SQL Server (Missing PDO extension)
+ > MySQL
+
+cd project-name
+npm install && npm run build
+composer run dev

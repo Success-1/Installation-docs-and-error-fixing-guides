@@ -1,0 +1,5 @@
+Run the command below to fix npm errors 
+Created during Benjoe project on 28/06/2025
+
+Command:
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
