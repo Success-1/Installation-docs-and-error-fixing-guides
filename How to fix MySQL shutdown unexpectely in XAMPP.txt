@@ -1,0 +1,7 @@
+How to fix MySQL shutdown unexpectedly: 
+Created on 28/06/2025
+
+- On your file explorer, Open xampp folder/MySQL/data. Rename the folder named "data" to data_old 
+- Create a new folder call it data.
+- Copy all the folders in data_old except from "MySQL, performance_schema, phpMyAdmin, and testing" copy a file name "ibdata1"
+- Go to backup folders, copy everything there, except from ibdata1. Paste them in the new data folder created.
