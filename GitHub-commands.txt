@@ -1,0 +1,15 @@
+GitHub commands
+Created during Benjoe project on 28/06/2025
+
+echo "# Installation-docs-and-error-fixing-guides" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Success-1/Installation-docs-and-error-fixing-guides.git
+git push -u origin main
+
+For already existing Repositry
+git remote add origin https://github.com/Success-1/Installation-docs-and-error-fixing-guides.git
+git branch -M main
+git push -u origin main
